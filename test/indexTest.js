@@ -31,6 +31,7 @@ describe('Fix the Scope', function() {
       expect(window.bestCustomer).to.equal('maybe bob');
     });
   });
+  
 
   describe('changeLeastFavoriteCustomer()', function() {
     it('unsuccessfully tries to reassign the least favorite customer', function() {
